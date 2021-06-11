@@ -33,6 +33,7 @@ body {
 
 .bio-occupation {
   margin-bottom: 27px;
+  font-size: 20px;
 }
 
 .bio-title,
@@ -42,11 +43,11 @@ body {
 
 .bio-occupation,
 .bio-about {
-  font-size: 14px;
   line-height: 1.714;
 }
 
 .bio-about {
+  font-size: 14px;
   color: #595959;
 }
 
