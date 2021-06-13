@@ -101,6 +101,14 @@ body {
 
 .skills-title {
   font-size: 22px;
+}
+
+.skills-in-progress-title {
+  font-size: 18px;
+}
+
+.skills-title,
+.skills-in-progress-title {
   line-height: 1.091;
 }
 
