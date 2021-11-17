@@ -1,3 +1,4 @@
 node_modules
 examples
 example.json
+.DS_Store
