@@ -14,8 +14,9 @@ body {
 
 .bio,
 .jobs,
-.education {
-  margin-bottom: 60px;
+.education,
+.hobby {
+  margin-bottom: 50px;
 }
 
 .right-side {
@@ -27,12 +28,12 @@ body {
 
 .bio-title {
   font-size: 45px;
-  line-height: 2;
-  margin-bottom: 20px;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 
 .bio-occupation {
-  margin-bottom: 27px;
+  margin-bottom: 35px;
   font-size: 20px;
 }
 
@@ -42,7 +43,8 @@ body {
 }
 
 .bio-occupation,
-.bio-about {
+.bio-about,
+.bio-summary {
   line-height: 1.714;
 }
 
@@ -51,8 +53,22 @@ body {
   color: #595959;
 }
 
+.bio-summary {
+  font-size: 16px;
+  border-color: #d4b463;
+  border-radius: 3px;
+  border-width: 0.5px;
+  border-style: solid;
+}
+
+.bio-about,
+.bio-summary {
+  padding: 5px;
+}
+
 .jobs-title,
-.education-title {
+.education-title,
+.hobby-title {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 1.091;
@@ -70,6 +86,10 @@ body {
   color: #828282;
   font-size: 12px;
   line-height: 2;
+}
+
+.experience {
+  padding-bottom: 10px;
 }
 
 .experience-item {
@@ -112,12 +132,22 @@ body {
   line-height: 1.091;
 }
 
-.skills-item {
-  font-size: 14px;
+.skills-item,
+.portfolio-item {
   line-height: 1.714;
 }
 
-.skills-list {
+.skills-item {
+  font-size: 14px;
+}
+
+.portfolio-item {
+  font-size: 18px;
+}
+
+.skills-list,
+.portfolio-list,
+.hobby-item {
   list-style: none;
   padding-left: 0;
 }
@@ -139,18 +169,21 @@ body {
 .photo,
 .contacts,
 .skills,
-.widget {
+.widget,
+.portfolio {
   margin-bottom: 60px;
 }
 
 .contacts,
 .skills,
-.widget {
+.widget,
+.portfolio {
   padding-left: 40px;
 }
 
 .contacts-title,
-.skills-title {
+.skills-title,
+.portfolio-title {
   color: #ffffff;
   font-family: Montserrat;
   font-size: 22px;
@@ -170,20 +203,30 @@ body {
   color: #ffffff;
 }
 
-.contacts-link {
-  opacity: 0.6;
-  color: #ffffff;
+.contacts-link,
+.portfolio-link {
+  opacity: 0.7;
   text-decoration: none;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.portfolio-link:hover {
   opacity: 1;
   text-decoration: underline;
 }
 
+.portfolio-link {
+  color: #fec62e;
+}
+
+.contacts-link {
+  color: #ffffff;
+}
+
+
 .widget {
   padding-left: 40px;
-  min-height: 60px;
+  min-height: 40px;
   min-width: max-content;
 }
 .widget-link {
@@ -213,5 +256,11 @@ body {
 
 .highlighted:hover,
 .widget:hover {
-  animation: pulse 1s;
+  animation: pulse 0.75s;
+}
+
+.gdpr
+{
+  font-size: 10px;
+  font-style: oblique;
 }
