@@ -6,7 +6,7 @@ describe('Resume download button', () => {
             .should('be.visible')
             .click()
 
-        cy.readFile('cypress/downloads/Anna-Maria Orwat resume.pdf')
+        cy.readFile('cypress/downloads/ROGULSKA Anna-Maria - resume.pdf')
             .should('exist')
     })
 })
